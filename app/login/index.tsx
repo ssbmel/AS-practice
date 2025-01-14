@@ -4,7 +4,7 @@ import React from 'react'
 export default function index() {
   return (
     <View>
-      <Text>AS접수</Text>
+      <Text>로그인</Text>
     </View>
   )
 }

@@ -1,10 +1,10 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-export default function index() {
+export default function AsDetail() {
   return (
     <View>
-      <Text>AS접수</Text>
+      <Text>AsDetail</Text>
     </View>
   )
 }
