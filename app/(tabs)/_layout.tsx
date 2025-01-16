@@ -17,15 +17,26 @@ export default function _layout() {
         },
         headerStyle: {
             backgroundColor: "#fff",
+            // iOS에서 그림자 추가
+            shadowOpacity: 0.1,
+            shadowRadius: 1,
+            shadowOffset: {
+                width: 0,
+                height: 2
+            },
+            shadowColor: "gray",
+            // Android에서 그림자 추가
+            elevation: 3,
         },
         headerShadowVisible: false,
-        headerTitleAlign: "left"
+        headerTitleAlign: "left",
     }}
     >
         <Tabs.Screen 
             name='index'
             options={{
                 title: "AS접수내역",
+
                 tabBarIcon: ({color}) => (
                     <MaterialIcons name="headset-mic" size={24} color={color} />
                 )
